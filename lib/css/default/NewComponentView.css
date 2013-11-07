@@ -1,0 +1,79 @@
+#nm-nc {
+  max-height: 440px;
+}
+#nm-nc h4 {
+  margin: 0 0 10px 0;
+  font-size: 14px;
+  color: #555;
+  clear:both;
+}
+
+.nm-nc-category {
+  float:left;
+  height: 360px;
+  width: 124px;
+  background: white;
+  border: 1px inset #eee;
+  margin-right: 2px;
+  overflow: hidden;
+}
+.nm-nc-category:hover {
+  overflow: auto;
+}
+
+.nm-nc-category div {
+  font-size: 14px;
+  background: #F8F8F8;
+  margin: 4px 4px;
+  padding: 4px 6px;
+}
+
+.nm-nc-category div:hover {
+  background: #ddd;
+  cursor: pointer;
+}
+
+.nm-nc-category .selected {
+  background: #bbb;
+}
+
+.nm-nc-canvas {
+  float:left;
+  height: 360px;
+  width: 396px;
+  background: white;
+  border: 1px inset #eee;
+  overflow: hidden;
+}
+
+.nm-nc-canvas:hover {
+  overflow: auto;
+}
+
+.nm-nc-canvas > div {
+  margin: 20px 10px 0px 30px;
+  float: left;
+  height: 100px;
+}
+.nm-nc-icon * {
+  cursor: pointer;
+}
+
+.nm-nc-icon-img {
+  height: 64px;
+  width: 64px;
+  margin-left: 10px;
+  border-radius: 10px;
+  border: 1px solid #888;
+  -webkit-box-shadow: 3px 3px 8px #888;
+  -moz-box-shadow: 3px 3px 8px #888;
+  box-shadow: 3px 3px 8px #888;
+  background-size:100% 100%;
+}
+
+.nm-nc-icon label {
+  padding-top: 4px;
+  width: 84px;
+  text-align: center;
+  overflow: hidden;
+}

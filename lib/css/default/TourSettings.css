@@ -1,0 +1,116 @@
+.nm-tsv-tours {
+  float:left;
+  width:45%;
+  padding-right: 18px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  position: relative;
+}
+
+.nm-tsv-dirty {
+  display:none;
+}
+
+.nm-tsv-form {
+  float:left;
+  width:55%;
+}
+
+.nm-tsv-add {
+  position: absolute;
+  top: 0;
+  right: 2px;
+  cursor:pointer;
+  color: #888;
+}
+.nm-tsv-add:hover {
+  color: black;
+}
+.nm-tsv-add-tour {
+  right: 18px;
+}
+
+.nm-tsv-form label {
+  color: #555;
+}
+
+.nm-tsv-form label {
+  display: inline;
+}
+
+.nm-tsv-form label.above {
+  display: block;
+  margin: 8px 0 6px;
+}
+.nm-tsv-form label.above:first-child {
+  margin-top:0;
+}
+
+.nm-tsv-title {
+  width: 180px;
+}
+
+.nm-tsv-description {
+  width: 286px;
+}
+
+.nm-tsv-pages {
+  clear:both;
+  position:relative;
+}
+
+.nm-tsv-page-list {
+  width: 506px;
+  height: 130px;
+  background:white;
+  border: 1px inset #eee;
+  overflow: auto;
+  padding: 10px;
+}
+
+.nm-tsv-page-list table {
+  width: 100%;
+}
+
+.nm-tsv-up,
+.nm-tsv-down,
+.nm-tsv-remove {
+  width: 28px;
+  text-align:center;
+  cursor: pointer;
+  opacity: .4;
+}
+.nm-tsv-up:hover,
+.nm-tsv-down:hover,
+.nm-tsv-remove:hover {
+  opacity: 1;
+}
+
+.nm-tsv-auto-next-sec {
+  margin: 0 4px 3px 6px;
+  height: 17px;
+  width: 30px;
+  text-align: right;
+  padding-right: 4px;
+}
+
+.nm-tsv-tree,
+.nm-tv-page-browser {
+  margin: 6px 0 14px;
+  height: 112px;
+  background: white;
+  border: 1px inset #eee;
+  padding: 5px 0 5px 0;
+  overflow: auto;
+}
+
+#nm-tv-new-page {
+  width:300px;
+  z-index: 1150;
+}
+
+.nm-tv-page-browser {
+  margin: 10px 0 0;
+  height: 130px;
+}

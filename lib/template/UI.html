@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" id="monitor-dashboard">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{title}}{{siteName}}</title>
+    <meta name="description" content="{{{description}}}"/>
+    <style type="text/css">html,body {background-color: black}</style>
+    <meta name="author" content="Open Source http://github.com/lorenwest/monitor-dashboard">
+    <link rel="shortcut icon" href="{{{favicon}}}" type="image/x-icon"/>{{{styles}}}
+  </head>
+  <body>
+    <div id="nm-page">
+    </div>
+    <div id="nm-template">{{{templates}}}
+    </div>{{{scripts}}}
+    <script type="text/javascript" charset="utf-8">
+    <!--
+      $(function(){
+        var Log = Monitor.Log;
+        Log.on('{trace,warn,error,fatal}.*', Log.console);
+        Monitor.getRouter().setFirewall(true);
+        var UI = Monitor.UI;
+        var page = new UI.Page({{{pageParams}}});
+        var pageView = UI.pageView = new UI.PageView({
+          "model": page,
+          "version": "{{{version}}}",
+          "logo": "{{{logo}}}",
+          "el": $('#nm-page')});
+        pageView.render();
+      });
+    -->
+    </script>
+  </body>
+</html>

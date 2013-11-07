@@ -1,0 +1,13 @@
+{
+  "name": "{{appName}}",
+  "description": "{{appDescription}}",
+  "version": "0.1.0",
+  "main": "lib/index.js",
+  "dependencies": {
+    "config": ">=0.4.31 <0.5.0",
+    "connect": ">=1.7.2 <1.8.0",
+    "monitor": ">=0.6.0 <0.7.0",
+    "monitor-dashboard": ">=0.6.0 <0.7.0"
+  },
+  "engines": {"node": ">0.6.x"}
+}

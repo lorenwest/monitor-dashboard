@@ -1,0 +1,40 @@
+{
+  "name": "monitor-dashboard",
+  "description": "Monitor and Control Dashboards for Node.js",
+  "version": "0.6.6",
+  "main": "monitor.js",
+  "keywords": ["monitor", "dashboard", "node-monitor", "remote control", "monitoring", "control", "realtime", "control panel"],
+  "author": {
+    "name": "Loren West",
+    "email": "open_source@lorenwest.com",
+    "url": "http://github.com/lorenwest"
+  },
+  "homepage": "http://lorenwest.github.com/monitor-dashboard/",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/lorenwest/monitor-dashboard.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lorenwest/monitor-dashboard/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/lorenwest/monitor-dashboard/blob/master/LICENSE"
+    }
+  ],
+  "dependencies": {
+    "config": ">=0.4.17 <0.5.0",
+    "connect": ">=1.7.2 <1.8.0",
+    "monitor": ">=0.6.0 <0.7.0",
+    "core-monitor": ">=0.5.4 <0.6.0"
+  },
+  "devDependencies": {
+    "grunt": "0.3.17"
+  },
+  "engines": { "node": ">= 0.8.0" },
+  "scripts": {
+    "test": "grunt test",
+    "start": "node monitor"
+  }
+}
