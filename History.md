@@ -2,6 +2,7 @@
 ==================
 
   * Name change from monitor to monitor-dashboard
+  * Added backbone-callbacks as a dependency
 
 0.5.4 / 2013-10-23
 ==================
