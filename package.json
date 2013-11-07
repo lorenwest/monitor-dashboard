@@ -1,6 +1,6 @@
 {
   "name": "monitor-dashboard",
-  "description": "Monitor and Control Dashboards for Node.js",
+  "description": "Dashboard UI for node monitor",
   "version": "0.6.6",
   "main": "monitor.js",
   "keywords": ["monitor", "dashboard", "node-monitor", "remote control", "monitoring", "control", "realtime", "control panel"],
