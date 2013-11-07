@@ -3,7 +3,7 @@ Monitor Dashboard
 
 Monitor Dashboards for Node.js
 
-These dashboards provide a UI for the [NodeJS monitor](http://npmjs.org/package/monitor) module.
+This web application provides a UI for the [Node Monitor](http://npmjs.org/package/monitor) module.
 
 [![Build Status](https://secure.travis-ci.org/lorenwest/monitor-dashboard.png?branch=master)](https://travis-ci.org/lorenwest/monitor-dashboard)
 
