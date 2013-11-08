@@ -1,7 +1,7 @@
 {
   "name": "monitor-dashboard",
   "description": "Dashboard UI for node monitor",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "main": "monitor.js",
   "keywords": ["monitor", "dashboard", "node-monitor", "remote control", "monitoring", "control", "realtime", "control panel"],
   "author": {
@@ -28,7 +28,7 @@
     "connect": ">=1.7.2 <1.8.0",
     "backbone-callbacks": ">=0.1.5 <0.2.0",
     "monitor": ">=0.6.0 <0.7.0",
-    "core-monitor": ">=0.6.0 <0.7.0"
+    "core-monitor": ">=0.6.1 <0.7.0"
   },
   "devDependencies": {
     "grunt": "0.3.17"
