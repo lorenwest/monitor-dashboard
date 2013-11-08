@@ -1,0 +1,8 @@
+{
+  "id": "default",
+  "name": "Node Monitor",
+  "logo": "/static/css/default/images/monitor.jpg",
+  "favicon": "/static/css/default/images/favicon.ico",
+  "css": "",
+  "tours": []
+}
