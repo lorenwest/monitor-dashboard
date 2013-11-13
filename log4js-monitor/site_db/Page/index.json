@@ -1,7 +1,7 @@
 {
   "id": "/index",
-  "title": "Home - {{appDescription}}",
-  "description": "{{appDescription}}",
+  "title": "Home - Log4js Monitor",
+  "description": "Log4js Monitor",
   "components": [
     {
       "id": "c0",
