@@ -1,7 +1,7 @@
 // grunt.js (c) 2010-2013 Loren West and other contributors
 // May be freely distributed under the MIT license.
 // For all details and documentation:
-// http://lorenwest.github.com/monitor-dashboard
+// http://github.com/lorenwest/monitor-dashboard
 
 var exec = require('child_process').exec;
 

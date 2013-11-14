@@ -33,7 +33,7 @@ Monitoring
 
 Once running in your application, {{appName}} can be viewed using the node monitor dashboard.
 
-    npm install -g monitor-dashboard
+    npm install monitor-dashboard
     npm start monitor-dashboard
 
-See [monitor-dashboard](http://lorenwest.github.io/monitor-dashboard) for more information about the node monitor dashboard.
+See [monitor-dashboard](http://github.com/lorenwest/monitor-dashboard) for more information about the node monitor dashboard.
