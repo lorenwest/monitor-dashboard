@@ -9,7 +9,7 @@
       "viewOptions": {
         "title": "",
         "background": false,
-        "htmlValue": "<div class=\" wysiwyg-text-align-center\">\n<a href=\"https://github.com/lorenwest/monitor-dashboard\" target=\"_blank\" title=\"Review the source code on GitHub\" data-placement=\"top\">\nCopyright ©2010-2013</a>&nbsp; &nbsp;| &nbsp; May be freely used and distributed under the \n<a href=\"https://github.com/lorenwest/monitor-dashboard/blob/master/LICENSE\" title=\"View the license\" data-placement=\"top\">\nMIT license</a>&nbsp; &nbsp; | &nbsp; &nbsp;<i class=\"icon-question-sign\"></i> &nbsp;<a href=\"https://github.com/lorenwest/monitor-dashboard/issues\" target=\"_blank\" title=\"View or add issues on GitHub\" data-placement=\"top\">Questions</a>&nbsp; &nbsp;| &nbsp; &nbsp;<i class=\"icon-bullhorn\"></i>&nbsp;<a href=\"https://twitter.com/intent/tweet?source=webclient&amp;text=%23NodeMonitor%20\" target=\"_blank\" title=\"Tweet to #NodeMonitor\" data-placement=\"top\">Comments</a>&nbsp; <i class=\"icon-twitter\"></i>&nbsp; &nbsp; | &nbsp;&nbsp;<a href=\"javascript:Monitor.UI.pageView.showAbout()\" title=\"About Node Monitor\" data-placement=\"top\">About &amp; Credits</a>\n</div>"
+        "htmlValue": "<div class=\" wysiwyg-text-align-center\">\n<a href=\"https://github.com/lorenwest/monitor-dashboard\" target=\"_blank\" title=\"Review the source code on GitHub\" data-placement=\"top\">\nCopyright ©2010-2013</a>&nbsp; &nbsp;| &nbsp; May be freely used and distributed under the \n<a href=\"https://github.com/lorenwest/monitor-dashboard/blob/master/LICENSE\" title=\"View the license\" data-placement=\"top\">\nMIT license</a>&nbsp; &nbsp; | &nbsp; &nbsp;<i class=\"icon-question-sign\"></i> &nbsp;<a href=\"https://github.com/lorenwest/monitor-dashboard/issues\" target=\"_blank\" title=\"View or add issues on GitHub\" data-placement=\"top\">Questions</a>&nbsp; &nbsp;| &nbsp; &nbsp;<i class=\"icon-bullhorn\"></i>&nbsp;<a href=\"https://twitter.com/intent/tweet?source=webclient&amp;text=%23NodeMonitor%20%23NodeJS\" target=\"_blank\" title=\"Tweet to #NodeMonitor\" data-placement=\"top\">Comments</a>&nbsp; <i class=\"icon-twitter\"></i>&nbsp; &nbsp; | &nbsp;&nbsp;<a href=\"javascript:Monitor.UI.pageView.showAbout()\" title=\"About Node Monitor\" data-placement=\"top\">About &amp; Credits</a>\n</div>"
       },
       "css": {
         ".nm-cv": "top:670px; left:0px; z-index:3;",
@@ -21,7 +21,7 @@
       "id": "c2",
       "viewClass": "core.Html",
       "viewOptions": {
-        "htmlValue": "<img style=\"height:100%; width=100%;\" src=\"/static/css/default/images/dashboard.jpg\" title=\"Example dashboard\">",
+        "htmlValue": "<img style=\"height:100%; width=100%;\" src=\"/static/css/default/images/dashboard.jpg\">",
         "background": true,
         "title": ""
       },
