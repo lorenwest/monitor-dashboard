@@ -2,6 +2,7 @@
 ==================
 
   * New home page
+  * Updated monitor dependencies
 
 0.6.1 / 2013-11-07
 ==================
