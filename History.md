@@ -5,6 +5,7 @@
   * Updated monitor dependencies
   * Removed home page templates
   * Moved home and 404 page to core-monitor
+  * Added a better default scrollbar for webkit browsers
 
 0.6.1 / 2013-11-07
 ==================
