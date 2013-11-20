@@ -1,4 +1,21 @@
 /* Site level CSS */
+::-webkit-scrollbar {
+  width:9px;height:9px;
+}
+::-webkit-scrollbar-corner {
+  display:none;
+}
+::-webkit-scrollbar-thumb:horizontal,
+::-webkit-scrollbar-thumb:vertical {
+  background-color:rgba(127,127,127,0.6);
+  -webkit-border-radius:6px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}
+::-webkit-scrollbar-track,
+::-webkit-scrollbar-track-piece {
+  background-color:transparent;
+}
+
 html, body {
   height: 100%;
   width: 100%;
