@@ -14,7 +14,7 @@ Quick Start
 
 **Install and Run**
 
-    $ npm install -g monitor-dashboard
+    $ npm install monitor-dashboard
     $ npm start monitor-dashboard
 
 Online Documentation
