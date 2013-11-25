@@ -1,3 +1,9 @@
+0.6.3 / 2013-
+==================
+
+  * Made twitter link consistent with home page
+
+
 0.6.2 / 2013-11-23
 ==================
 
