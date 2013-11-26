@@ -3,6 +3,7 @@
 
   * Made twitter link consistent with home page
   * Updated core-monitor dependency
+  * Fixed component remove button
 
 0.6.2 / 2013-11-23
 ==================
