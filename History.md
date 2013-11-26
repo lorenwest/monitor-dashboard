@@ -4,6 +4,7 @@
   * Made twitter link consistent with home page
   * Updated core-monitor dependency
   * Fixed component remove button
+  * Fixed .npmignore contents
 
 0.6.2 / 2013-11-23
 ==================
