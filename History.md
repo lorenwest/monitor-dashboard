@@ -1,8 +1,8 @@
-0.6.3 / 2013-
+0.6.3 / 2013-11-25
 ==================
 
   * Made twitter link consistent with home page
-
+  * Updated core-monitor dependency
 
 0.6.2 / 2013-11-23
 ==================
