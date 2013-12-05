@@ -28,7 +28,7 @@
   console.log("");
 
   // Output an application template
-  if (process.argv.length > 3 && process.argv[2] === 'app') {
+  if (process.argv.length > 3 && process.argv[2] === '--app') {
     require('./lib/js/AppTemplate');
     process.exit(0);
   }
