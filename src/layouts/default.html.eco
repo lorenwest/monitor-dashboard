@@ -31,7 +31,7 @@
         <div class="container">
           <a class="brand" href="<%- @getUrl('/index.html') %>">
             <img src="<%- @getUrl('/img/monitor.jpg') %>" class="logo"></img>
-	    Node Monitor
+	    Monitor Dashboard
 	  </a>
           <div class="nav-collapse collapse">
             <ul class="nav pull-right">

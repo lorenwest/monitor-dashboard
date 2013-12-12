@@ -8,7 +8,7 @@ title: Page Tours
 <img style="float:left; margin-right: 20px; height:78px" src="<%- @getUrl('/img/tour.png') %>">
 
 Tours are located in the bottom section of the left sidebar.
-They represent a grouping of pages on your node monitor site.
+They represent a grouping of pages on your monitor dashboard site.
 
 When a tour is selected from the sidebar, the first page of the tour is loaded and
 a tour control is displayed at the bottom of the screen.  The tour runs until it is

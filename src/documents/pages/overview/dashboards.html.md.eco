@@ -8,12 +8,12 @@ title: Dashboards
 
 <img style="float:left; margin-right: 20px; height: 130px; border-radius:4px" src="<%- @getUrl('/img/dashboard.png') %>">
 
-Each page in the Node Monitor site is a dashboard.  You can have as many
+Each page in the site is a dashboard.  You can have as many
 dashboards as you like, and you can create a dashboard hierarchy with the
 path to your pages.
 
 To create a new dashboard, enter a new page URL in your browser.
-Like a Wiki, if the page doesn't exist, Node Monitor asks if you want to create one at that URL.
+Like a Wiki, if the page doesn't exist, monitor dashboard asks if you want to create one at that URL.
 
 <a name="Header" class="clearfix"></a>
 ## Header
@@ -23,7 +23,7 @@ Like a Wiki, if the page doesn't exist, Node Monitor asks if you want to create 
 The header contains the page title and main menu.  Hovering over the title displays the page description (if one is set),
 and clicking the title takes you to the page settings dialog.
 
-The drop-down menu lets you manage various elements within the page, and the About section gives kudos to the software used to build Node Monitor.
+The drop-down menu lets you manage various elements within the page, and the About section gives kudos to the software used to build monitor dashboard.
 
 Clicking the logo on the right opens and closes the header bar.
 
@@ -57,7 +57,7 @@ until the 'Save' button is pressed.  A "view source" button is available
 giving you access to the underlying structure of that component.
 
 A core set of components from the [core-monitor](https://github.com/lorenwest/core-monitor)
-project are bundled with Node Monitor, and other component types can be written and packaged as [monitor apps](<%- @getUrl('/pages/overview/apps.html') %>).
+project are bundled with monitor dashboard, and other component types can be written and packaged as [monitor apps](<%- @getUrl('/pages/overview/apps.html') %>).
 
 <a name="CoreComponents" class="clearfix"></a>
 ## Core Components
@@ -95,7 +95,7 @@ The following components are installed by default from the <a href="https://gith
 <table class="readme-table">
   <tbody>
     <tr>
-      <td><img src="http://lorenwest.github.io/node-monitor/img/icons/AppViewer.png" title="App Viewer"></td>
+      <td><img src="http://lorenwest.github.io/monitor-dashboard/img/icons/AppViewer.png" title="App Viewer"></td>
       <td>
         <h5>App Viewer</h5>
         <p>An application process viewer</p>
@@ -103,7 +103,7 @@ The following components are installed by default from the <a href="https://gith
     </tr>
 
     <tr>
-      <td><img src="http://lorenwest.github.io/node-monitor/img/icons/BarChart.png" title="Bar Chart"></td>
+      <td><img src="http://lorenwest.github.io/monitor-dashboard/img/icons/BarChart.png" title="Bar Chart"></td>
       <td>
         <h5>Bar Chart</h5>
         <p>A Highcharts bar chart</p>
@@ -111,7 +111,7 @@ The following components are installed by default from the <a href="https://gith
     </tr>
 
     <tr>
-      <td><img src="http://lorenwest.github.io/node-monitor/img/icons/Button.png" title="Button"></td>
+      <td><img src="http://lorenwest.github.io/monitor-dashboard/img/icons/Button.png" title="Button"></td>
       <td>
         <h5>Button</h5>
         <p>A button to place on a page that runs javascript when pressed</p>
@@ -119,7 +119,7 @@ The following components are installed by default from the <a href="https://gith
     </tr>
 
     <tr>
-      <td><img src="http://lorenwest.github.io/node-monitor/img/icons/Clock.png" title="Clock"></td>
+      <td><img src="http://lorenwest.github.io/monitor-dashboard/img/icons/Clock.png" title="Clock"></td>
       <td>
         <h5>Clock</h5>
         <p>A clock can put a finishing touch on a dashboard</p>
@@ -127,7 +127,7 @@ The following components are installed by default from the <a href="https://gith
     </tr>
 
     <tr>
-      <td><img src="http://lorenwest.github.io/node-monitor/img/icons/Gauge.png" title="Gauge"></td>
+      <td><img src="http://lorenwest.github.io/monitor-dashboard/img/icons/Gauge.png" title="Gauge"></td>
       <td>
         <h5>Gauge</h5>
         <p>A fuel gauge for expressing the current state</p>
@@ -135,7 +135,7 @@ The following components are installed by default from the <a href="https://gith
     </tr>
 
     <tr>
-      <td><img src="http://lorenwest.github.io/node-monitor/img/icons/HTMLView.png" title="HTML Template"></td>
+      <td><img src="http://lorenwest.github.io/monitor-dashboard/img/icons/HTMLView.png" title="HTML Template"></td>
       <td>
         <h5>HTML Template</h5>
         <p>Place any HTML on your dashboard, optionally merging backend data with text.</p>
@@ -143,7 +143,7 @@ The following components are installed by default from the <a href="https://gith
     </tr>
 
     <tr>
-      <td><img src="http://lorenwest.github.io/node-monitor/img/icons/LineChart.png" title="Line Chart"></td>
+      <td><img src="http://lorenwest.github.io/monitor-dashboard/img/icons/LineChart.png" title="Line Chart"></td>
       <td>
         <h5>Line Chart</h5>
         <p>A highcharts line chart</p>
@@ -151,7 +151,7 @@ The following components are installed by default from the <a href="https://gith
     </tr>
 
     <tr>
-      <td><img src="http://lorenwest.github.io/node-monitor/img/icons/LogViewer.png" title="Log Viewer"></td>
+      <td><img src="http://lorenwest.github.io/monitor-dashboard/img/icons/LogViewer.png" title="Log Viewer"></td>
       <td>
         <h5>Log Viewer</h5>
         <p>A highly configurable log viewer, with a filtering and JSON expansion.</p>
@@ -159,7 +159,7 @@ The following components are installed by default from the <a href="https://gith
     </tr>
 
     <tr>
-      <td><img src="http://lorenwest.github.io/node-monitor/img/icons/ObjectInspector.png" title="Object Inspector"></td>
+      <td><img src="http://lorenwest.github.io/monitor-dashboard/img/icons/ObjectInspector.png" title="Object Inspector"></td>
       <td>
         <h5>Object Inspector</h5>
         <p>Monitor any globally available object.  If the object is a backbone model, monitor changes in real time.</p>
@@ -167,7 +167,7 @@ The following components are installed by default from the <a href="https://gith
     </tr>
 
     <tr>
-      <td><img src="http://lorenwest.github.io/node-monitor/img/icons/PieChart.png" title="Pie Chart"></td>
+      <td><img src="http://lorenwest.github.io/monitor-dashboard/img/icons/PieChart.png" title="Pie Chart"></td>
       <td>
         <h5>Pie Chart</h5>
         <p>A Highcharts pie chart</p>
@@ -175,7 +175,7 @@ The following components are installed by default from the <a href="https://gith
     </tr>
 
     <tr>
-      <td><img src="http://lorenwest.github.io/node-monitor/img/icons/ProbeViewer.png" title="Probe Viewer"></td>
+      <td><img src="http://lorenwest.github.io/monitor-dashboard/img/icons/ProbeViewer.png" title="Probe Viewer"></td>
       <td>
         <h5>Probe Viewer</h5>
         <p>Monitor any probe running in any of your Node.js processes.</p>
@@ -183,7 +183,7 @@ The following components are installed by default from the <a href="https://gith
     </tr>
 
     <tr>
-      <td><img src="http://lorenwest.github.io/node-monitor/img/icons/Console.png" title="REPL Console"></td>
+      <td><img src="http://lorenwest.github.io/monitor-dashboard/img/icons/Console.png" title="REPL Console"></td>
       <td>
         <h5>REPL Console</h5>
         <p>Yeah.  In a browser.</p>
@@ -191,7 +191,7 @@ The following components are installed by default from the <a href="https://gith
     </tr>
 
     <tr>
-      <td><img src="http://lorenwest.github.io/node-monitor/img/icons/Slider.png" title="Slider"></td>
+      <td><img src="http://lorenwest.github.io/monitor-dashboard/img/icons/Slider.png" title="Slider"></td>
       <td>
         <h5>Slider</h5>
         <p>Show the state of a numeric variable, and allow user input.</p>
@@ -199,7 +199,7 @@ The following components are installed by default from the <a href="https://gith
     </tr>
 
     <tr>
-      <td><img src="http://lorenwest.github.io/node-monitor/img/icons/SparkLine.png" title="Spark Line"></td>
+      <td><img src="http://lorenwest.github.io/monitor-dashboard/img/icons/SparkLine.png" title="Spark Line"></td>
       <td>
         <h5>Spark Line</h5>
         <p>A Highcharts line chart, without the dressing.</p>
@@ -207,7 +207,7 @@ The following components are installed by default from the <a href="https://gith
     </tr>
 
     <tr>
-      <td><img src="http://lorenwest.github.io/node-monitor/img/icons/WebClip.png" title="Web Snippet"></td>
+      <td><img src="http://lorenwest.github.io/monitor-dashboard/img/icons/WebClip.png" title="Web Snippet"></td>
       <td>
         <h5>Web Snippet</h5>
         <p>Embed a snippet of another web page in your dashboard.</p>

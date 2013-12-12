@@ -1,25 +1,19 @@
 ---
 layout: default
-title: Node Monitor
+title: Monitor Dashboard
 ---
 
 <div class="hero-unit">
   <h1>
-     Node Monitor<br>
-     Remote Monitoring & Control
+     Monitor Dashboard<br>
+     Control Panels & Monitors
   </h1>
 </div>
 
 <p class="message">
   <img style="float:right; margin: 0 -40px 0 20px; height: 230px; border-radius:4px" src="<%- @getUrl('/img/dashboard.png') %>">
-  Node Monitor is an open source component you add to your Node.js app, and a dashboard for visualizing and controlling
-  your app servers at runtime.
+ Monitor-dashboard is a web app for the [node-monitor](https://github.com/lorenwest/node-monitor) project. It lets you build custom pages for visualizing your Node.js app servers. 
 </p>
-
-<p class="message">
-  To add monitoring to your app servers, place the following in your initialization:
-</p>
-<pre style="margin: 20px 0 10px 40px; width:50%; padding: 20px;">var Monitor = require('monitor').start();</pre>
 <p class="message">
   To install and run the dashboard:
 </p>
