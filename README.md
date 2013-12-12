@@ -1,32 +1,21 @@
-Monitor Dashboard
-=================
+Monitor Dashboard Pages
+=======================
 
-Monitor Dashboards for Node.js
+This contains the monitor-dashboard-pages branch of the monitor-dashboard repository.
+It's best to place this into a new directory, as it has a completely
+different directory structure from the node monitor source.
 
-This web application provides a UI for the [Node Monitor](http://npmjs.org/package/monitor) module.
+To Develop
+------------------------------
 
-[![Build Status](https://secure.travis-ci.org/lorenwest/monitor-dashboard.png?branch=master)](https://travis-ci.org/lorenwest/monitor-dashboard)
+    ./docpad.sh run
 
-[![Dashboard](http://lorenwest.github.io/node-monitor/img/dashboard.png)](http://lorenwest.github.io/node-monitor)
+Then open a browser to http://localhost:9778
 
-Quick Start
------------
+To Publish
+----------
 
-**Install and Run**
+    ./docpad.sh deploy-ghpages
 
-    $ npm install monitor-dashboard
-    $ npm start monitor-dashboard
-
-Online Documentation
---------------------
-
-* [Node Monitor](http://lorenwest.github.io/node-monitor) - Monitor & dashboard documentation
-
-License
--------
-
-May be freely distributed under the MIT license
-
-See [LICENSE](https://github.com/lorenwest/monitor-dashboard/blob/master/LICENSE) file.
-
-Copyright (c) 2010-2013 Loren West and other contributors
+This generates the correct static site for github pages, and publishes
+the output directory to the gh-pages branch.

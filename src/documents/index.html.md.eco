@@ -1,0 +1,67 @@
+---
+layout: default
+title: Node Monitor
+---
+
+<div class="hero-unit">
+  <h1>
+     Node Monitor<br>
+     Remote Monitoring & Control
+  </h1>
+</div>
+
+<p class="message">
+  <img style="float:right; margin: 0 -40px 0 20px; height: 230px; border-radius:4px" src="<%- @getUrl('/img/dashboard.png') %>">
+  Node Monitor is an open source component you add to your Node.js app, and a dashboard for visualizing and controlling
+  your app servers at runtime.
+</p>
+
+<p class="message">
+  To add monitoring to your app servers, place the following in your initialization:
+</p>
+<pre style="margin: 20px 0 10px 40px; width:50%; padding: 20px;">var Monitor = require('monitor').start();</pre>
+<p class="message">
+  To install and run the dashboard:
+</p>
+<pre style="margin: 20px 0 10px 40px; width:50%; padding: 20px;">$ npm install monitor-dashboard
+$ npm start monitor-dashboard</pre>
+
+<p class="message clearfix">
+  Now navigate to <a href="http://localhost:4200/">http://localhost:4200/</a> in your browser.
+  The [Getting Started](<%- @getUrl('/pages/getting-started.html') %>) page has more information
+  about building dashboards using the built-in components.
+</p>
+
+<p class="message">
+  If you like what you see, send some &hearts; to the project team...
+</p>
+<pre style="margin: 20px 0 10px 40px; width:50%; padding: 20px;">$ npm star monitor monitor-dashboard</pre>
+
+<!-- Bottom row of columns -->
+<div class="row">
+  <div class="span4">
+    <h2>Dashboards</h2>
+    <p>
+      The Dashboard app lets you assemble components into pages
+      in your web browser, where each page is a different dashboard.
+    </p>
+    <p>
+      <a class="btn" href="<%- @getUrl('/pages/overview/dashboards.html') %>">View details &raquo;</a>
+    </p>
+  </div>
+  <div class="span4">
+    <h2>Tours</h2>
+    <p>
+      Automatically cycle through
+      your dashboards on a full screen monitor.<br><br>
+    <p><a class="btn" href="<%- @getUrl('/pages/overview/tours.html') %>">View details &raquo;</a></p>
+ </div>
+  <div class="span4">
+    <h2>Apps</h2>
+    <p>
+      Build monitoring into your apps and Node.js modules, and distribute
+      your monitors with npm.
+    </p>
+    <p><a class="btn" href="<%- @getUrl('/pages/overview/apps.html') %>">View details &raquo;</a></p>
+  </div>
+</div>

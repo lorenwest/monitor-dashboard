@@ -1,0 +1,64 @@
+---
+layout: page
+title: Monitor Apps
+---
+
+# Monitor Apps
+
+<img style="float:right; margin: -36px 20px -20px 40px; height:100px; border-radius: 6px;" src="<%- @getUrl('/img/app.png') %>">
+
+Monitor apps extend node-monitor, adding customized monitors and dashboard views for your application.
+Monitor apps can be included in your own Node.js application, or packaged separately
+for installation by npm.
+
+<a class="clearfix"></a>
+### Probes
+
+Data probes are installed into (or close to) the systems being monitored.
+Similar in concept to [JMX beans](http://www.google.com/search?q=jmx&btnI) in the Java
+world, probes are simply JavaScript data models describing the system being monitored.
+
+Built as Backbone.js data models, probes are easy to write.  Just add data elements when
+initialized, and set them as they change. Probes are activated only while being monitored,
+and changes are forwarded to monitors in real time using socket.io push.
+
+<a class="clearfix"></a>
+### Views
+
+<img style="float:right; margin: -36px 20px 0 40px; height: 280px; border-radius:6px; border:4px solid #888;" src="<%- @getUrl('/img/new_component.png') %>">
+Views are client-side components placed into the dashboard to visualize probes.
+
+When installed, views appear in the New Component screen, and can be added to
+any dashboard.  They come with a standard settings screen that is often
+extended to offer fine grained configuration.
+
+Views can also pass user input on to probes having remote control
+functionality, turning your dashboards into control panels.
+
+Built as Backbone.js view objects, creating custom views is straight forward
+with many exaples to copy from.
+<a class="clearfix"></a>
+### Pages & Tours
+
+<img style="float:left; margin-right: 20px; margin-bottom: 10px; height: 190px; border-radius:6px" src="<%- @getUrl('/img/sidebar.png') %>">
+Monitor apps can also contain pre-built dashboards (pages) and tours.
+
+Pages delivered with your application are shown in the sidebar under the "App Pages" menu, and tours delivered with your application are shown in the "App Tours" menu.
+
+<a class="clearfix"></a>
+### Packaging your Application
+
+Node Monitor apps are packaged and delivered using the standard package.json file and NPM.
+
+If you are building a monitor for an existing application (say, 'myapp'), the convention for
+naming your monitor app is 'myapp-monitor'.
+
+If your monitor app has probes they must be loaded by the host application,
+usually by requesting the host application to require('myapp-monitor') in their
+application startup.
+
+Views included in your monitor app are automatically discovered by the dashboard.
+The monitor app must be in the Node.js require path of the dashboard, and your
+package.json file must have a dependency on monitor-dashboard for it to be discovered.
+
+<a class="clearfix"></a>

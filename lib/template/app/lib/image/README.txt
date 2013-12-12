@@ -1,3 +1,0 @@
-Images placed here can be referenced by /app/{{shortAppName}}/image/...
-
-Make sure to include a good representative image for your monitor

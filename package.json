@@ -1,21 +1,20 @@
 {
   "name": "monitor-dashboard",
-  "description": "Dashboard UI for node monitor",
-  "version": "0.6.5",
-  "main": "monitor.js",
-  "keywords": ["monitor", "dashboard", "node-monitor", "remote control", "monitoring", "control", "realtime", "control panel"],
+  "description": "Github pages for monitor-dashboard",
+  "version": "0.6.0",
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.1.x"
+  },
   "author": {
     "name": "Loren West",
     "email": "open_source@lorenwest.com",
-    "url": "http://github.com/lorenwest"
+    "url": "https://github.com/lorenwest"
   },
-  "homepage": "http://github.com/lorenwest/monitor-dashboard/",
+  "homepage": "http://lorenwest.github.com/monitor-dashboard/",
   "repository": {
-    "type": "git",
-    "url": "git://github.com/lorenwest/monitor-dashboard.git"
-  },
-  "bugs": {
-    "url": "https://github.com/lorenwest/monitor-dashboard/issues"
+    "type" : "git",
+    "url" : "http://github.com/lorenwest/monitor-dashboard.git"
   },
   "licenses": [
     {
@@ -24,18 +23,24 @@
     }
   ],
   "dependencies": {
-    "config": ">=0.4.17 <0.5.0",
-    "connect": ">=1.7.2 <1.8.0",
-    "backbone-callbacks": ">=0.1.5 <0.2.0",
-    "monitor": ">=0.6.3 <0.7.0",
-    "core-monitor": ">=0.6.3 <0.7.0"
+    "docpad": "6.x",
+    "docpad-plugin-coffeescript": "2.x",
+    "docpad-plugin-eco": "2.x",
+    "docpad-plugin-less": "2.x",
+    "docpad-plugin-marked": "2.x",
+    "docpad-plugin-partials": "2.x",
+    "docpad-plugin-stylus": "2.x",
+    "docpad-plugin-text": "2.x",
+    "docpad-plugin-handlebars": "2.x",
+    "docpad-plugin-ghpages": "~2.3.0",
+    "docpad-plugin-geturl": "~2.1.x"
   },
   "devDependencies": {
-    "grunt": "0.3.17"
+    "docpad-plugin-livereload": "2.x"
   },
-  "engines": { "node": ">= 0.8.0" },
+  "main": "node_modules/docpad/bin/docpad-server",
   "scripts": {
-    "test": "grunt test",
-    "start": "node monitor"
+    "test": "true",
+    "start": "./docpad.sh run"
   }
 }
