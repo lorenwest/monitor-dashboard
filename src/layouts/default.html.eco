@@ -72,7 +72,7 @@
     <footer class="navbar navbar-inverse navbar-bottom">
       <div class="navbar-inner container">
         <ul class="nav footer-refs pull-left">
-          <li><a href="https://github.com/lorenwest/monitor-dashboard">Copyright &copy;2010-2013</a></li>
+          <li><a href="https://github.com/lorenwest/monitor-dashboard">Copyright &copy;2010-2014</a></li>
           <li><a href="https://github.com/lorenwest/monitor-dashboard/blob/master/LICENSE">May be freely used and distributed under the MIT licence</a></li>
 	</ul>
         <ul class="nav footer-refs pull-right">
