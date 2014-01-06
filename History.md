@@ -1,3 +1,10 @@
+0.6.6 / 2014-01-06
+==================
+
+  * Fixed sidebar to retain open/closed state
+  * Fixed sidebar to not show empty directories
+  * Updated copyright year
+
 0.6.5 / 2013-12-04
 ==================
 

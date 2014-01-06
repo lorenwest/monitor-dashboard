@@ -29,4 +29,4 @@ May be freely distributed under the MIT license
 
 See [LICENSE](https://github.com/lorenwest/monitor-dashboard/blob/master/LICENSE) file.
 
-Copyright (c) 2010-2013 Loren West and other contributors
+Copyright (c) 2010-2014 Loren West and other contributors
