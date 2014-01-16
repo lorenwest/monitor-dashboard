@@ -1,3 +1,8 @@
+0.6.7 / 2014-01-06
+==================
+
+  * Exposing component close icon when not hovering
+
 0.6.6 / 2014-01-06
 ==================
 

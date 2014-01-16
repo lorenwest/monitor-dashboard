@@ -62,7 +62,7 @@
 }
 .nm-cv-close {
   float: right;
-  color: transparent;
+  color: rgba(200,183,155, .2);
   padding: 0px 12px 4px 12px;
   font-size: 17px;
   cursor: pointer;
