@@ -3,6 +3,7 @@
 
   * Exposing component close icon when not hovering
   * Added a default component icon
+  * Updated README
 
 0.6.6 / 2014-01-06
 ==================
