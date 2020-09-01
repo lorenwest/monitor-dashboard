@@ -25,7 +25,7 @@
   ],
   "dependencies": {
     "config": ">=0.4.17 <0.5.0",
-    "connect": ">=1.7.2 <1.8.0",
+    "connect": "~2.8.1",
     "backbone-callbacks": ">=0.1.5 <0.2.0",
     "monitor": ">=0.6.3 <0.7.0",
     "core-monitor": ">=0.6.3 <0.7.0"
